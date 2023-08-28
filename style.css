@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body{
+ background-color:black;   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.login {
+    border: #4CAF50;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Adiciona flex-wrap para permitir que os elementos quebrem linha */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+}
+
+.btnentrar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.login2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    box-shadow: 0 0 20px rgb(187, 182, 182);
+    width: 35%;
+    background-color: black;
+    height: 45%;
+    border-radius: 10%;
+}
+
+
+button{
+    margin-top: 4%;
+    display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  button:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0cf;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+button:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+button:hover {
+    color: #fff;
+}
+
+button:hover::before {
+    width: 100%;
+}
+}
+
+.formulario{
+    border-radius: 2%;
+    width: 300px;
+    height: 5%;
+    color: white;
+}
+.input{
+    color:#000000;
+    border-radius: 2%;
+    width: 300px;
+    height: 5%;
+}
+.container{
+    
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-right: -10%;
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    box-shadow: 0 0 20px rgb(127, 124, 124);
+    width: 1100px;
+    background-color: black;
+    height: 547px;
+    border-radius: 10%;
+}
+.modal form{
+    border: none;
+}
+.teste{
+    height: 300px;
+    padding-top: 10%;
+    padding-left: 5%;
+    
+}
+img{
+    width: 120%;
+    
+}
+input{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 50px;   
+}
+
+.label-registrar{
+font-size: 30px;
+color: white;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+
+}
+
+.font-header{
+    color:#FFFFFF;
+    font-size: 30px;
+    cursor: pointer;   
+    text-decoration: none;
+}
+
+.atoa{
+    color:#FFFFFF;
+    font-size: 30px;
+}
+.divTable2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('ceunegro.jpg');
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    /* Seus outros estilos para a div */
+}
+.divTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('ceunegro.jpg');
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    /* Seus outros estilos para a div */
+}
+.nav-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.sociais{
+    width:100%;
+    height: 40px;
+    
+}
+th a {
+    display: block;
+}
+.divReclamacao{
+    width: 70%;
+    height: 70%;
+    display: flex; /* Define o container para usar flexbox */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+dialog {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    /* Adicione outras propriedades de estilo conforme necessário */
+}
+  
+
+.linkzudo {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.reclamacao{
+    border-radius: 2%;
+    width: 300px;
+    height: 5%;
+    color: white;
+}
+
+.input.email {
+    background-color: #f0f0f0; 
+    color: #000000; 
+    outline: none;
+    font-weight: bold;
+    width: 400px;
+}
+
+
+.input.reclamacao {
+    background-color: #ffcccc; 
+    color: #000000; 
+    outline: none;
+    font-weight: bold;
+}
+.input.senha{
+    background-color: #f0f0f0; 
+    color: #000000; 
+    outline: none;
+    width: 400px;
+}
+.input.nome{
+    background-color: #f0f0f0; 
+    color: #000000; 
+    outline: none;
+    font-weight: bold;
+    width: 400px;
+}
+
+.img.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px; /* Adicione margem à direita para separar a imagem do texto */
+    display: inline-block; /* Coloca a imagem e o texto lado a lado */
+    vertical-align: middle; /* Alinha verticalmente a imagem e o texto */
+}
+
+.img.reclamacao {
+    height: 400px;
+    width: 400px;
+    margin-right: 20px; /* Adiciona uma margem à direita para separar a imagem do formulário */
+}
+
+.containerStar{
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow:100%;
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span{
+    position: relative;
+    width: 6px;
+    height: 6px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius :100px;
+    opacity: 0.3;
+    box-shadow: 0 0 0 2px #4fc3dc44,
+    0 0 15px #4fc3dc,
+    0 0 25px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc( 200s / var(--i));
+}
+
+.bubbles span:nth-child(even) {
+    opacity: 0.3;
+    background: #FAFAD2;
+    box-shadow: 0 0 0 1px #FFFACD, 0 0 8px #FAFAD2, 0 0 10px #FAFAD2;
+}
+
+
+@keyframes animate{
+    0%{
+        transform: translateY(85vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+
+.modalcss{
+    background-color: #222222;
+    border-radius: 5%;
+}
+
+.reclamacaobtn{
+    border-radius: 2%;
+    width: 300px;
+    height: 5%;
+    color: black;
+}
+
+th,td {
+    padding: 0 30px; /*espaçamento do cabeçalho*/
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.sociais img {
+    width: 43px;
+    height: auto;
+}
+
+/* Adicione esta regra para alinhar as imagens à esquerda */
+td.sociais {
+    text-align: left;
+}
+
+.third {
+    border-color: #ffffff;
+    color: #fff;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    display: flex; /* Adiciona display flex */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+
+.third:hover {
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+    color: transparent;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0.6em;
+    cursor: pointer;
+    display: flex; /* Adiciona display flex */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 45%;
+    justify-content: center;
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+
+
+
+  
+
