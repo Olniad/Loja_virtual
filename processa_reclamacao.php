@@ -11,10 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bindParam(":reclamacao", $reclamacao);
         $stmt->execute();
         
-        // Redirecionar de volta para a página anterior ou fazer qualquer outra ação após a inserção
+        
         header("Location: index.php"); 
     } catch (PDOException $e) {
-        // Lidar com erros, se necessário
+        
         echo "Erro: " . $e->getMessage();
     }
 }

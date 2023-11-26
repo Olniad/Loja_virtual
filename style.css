@@ -104,10 +104,9 @@ button:hover::before {
     height: 5%;
 }
 .container{
-    
+    align-items:center ;
     display: flex;
-    max-width: 70%;
-    margin: 0 auto;
+    padding-left:1% ;
     margin-right: -10%;
 }
 .modal{
@@ -132,8 +131,7 @@ button:hover::before {
     
 }
 img{
-    width: 120%;
-    
+    width: 80%;
 }
 input{
     width: 80%;
@@ -208,15 +206,14 @@ th a {
 .divReclamacao{
     width: 70%;
     height: 70%;
-    display: flex; /* Define o container para usar flexbox */
-    align-items: center; /* Alinha verticalmente os itens no centro */
+    display: flex; 
+    align-items: center; 
 }
 
 dialog {
     display: none;
     position: fixed;
     z-index: 9999;
-    /* Adicione outras propriedades de estilo conforme necessário */
 }
   
 
@@ -264,15 +261,15 @@ dialog {
 .img.logo {
     height: 100px;
     width: 100px;
-    margin-right: 10px; /* Adicione margem à direita para separar a imagem do texto */
-    display: inline-block; /* Coloca a imagem e o texto lado a lado */
-    vertical-align: middle; /* Alinha verticalmente a imagem e o texto */
+    margin-right: 10px; 
+    display: inline-block; 
+    vertical-align: middle; 
 }
 
 .img.reclamacao {
     height: 400px;
     width: 400px;
-    margin-right: 20px; /* Adiciona uma margem à direita para separar a imagem do formulário */
+    margin-right: 20px; 
 }
 
 .containerStar{
@@ -332,7 +329,7 @@ dialog {
 }
 
 th,td {
-    padding: 0 30px; /*espaçamento do cabeçalho*/
+    padding: 0 30px; 
 }
 
 
@@ -346,7 +343,7 @@ table {
     height: auto;
 }
 
-/* Adicione esta regra para alinhar as imagens à esquerda */
+
 td.sociais {
     text-align: left;
 }
@@ -356,8 +353,8 @@ td.sociais {
     color: #fff;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
-    display: flex; /* Adiciona display flex */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
+    display: flex; 
+    align-items: center; 
 }
 
 .third:hover {
@@ -373,8 +370,8 @@ td.sociais {
     border: 2px solid #ffffff;
     border-radius: 0.6em;
     cursor: pointer;
-    display: flex; /* Adiciona display flex */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
+    display: flex; 
+    align-items: center; 
     font-size: 1rem;
     font-weight: 400;
     line-height: 1;
