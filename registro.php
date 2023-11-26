@@ -261,9 +261,9 @@ else{
 }
 */
 
-require_once "conexao.php"; // Certifique-se de que este arquivo está corretamente configurado
+require_once "conexao.php";
 
-// Adicione esta linha para selecionar o banco de dados
+
 $conn->exec("USE kassakismurf;");
 
 if(isset($_POST["btnRegistrar"])){
@@ -294,6 +294,6 @@ if(isset($_POST["btnRegistrar"])){
     }
 }
 ?>
-<!-- Seu código HTML continua aqui -->
+
 
 

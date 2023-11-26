@@ -235,7 +235,7 @@
 </body>
 </html>
 <?php
-require_once "conexao.php"; // Certifique-se de que a conexão com o banco esteja correta
+require_once "conexao.php"; 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["m-email"];
@@ -249,7 +249,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mensagem = "Reclamação enviada com sucesso!";
     } catch (PDOException $e) {
-        // Lidar com erros, se necessário
+        
         echo "Erro: " . $e->getMessage();
         $mensagem = "Erro ao enviar reclamação: " . $e->getMessage();
     }

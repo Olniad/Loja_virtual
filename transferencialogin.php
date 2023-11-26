@@ -3,7 +3,6 @@
 require_once "conexao.php";
 session_start();
 
-// Recupere os valores dos campos corretamente
 $email = $_POST["m-email"];
 $senha = $_POST["m-senha"];
 
