@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body{
+ background-color:black;   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.divTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('ceunegro.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.content_premium{
+    box-shadow: 0 0 20px #d2b82e;
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    padding: 2%;    
+    display: inline-block; 
+    border-radius: 10%;  
+}
+
+.content{
+    box-shadow: 0 0 20px #777770;
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    padding: 2%;    
+    display: inline-block; 
+    border-radius: 10%; 
+}
+#linha hr{
+    border: none;
+    height: 1px;
+    background-color: #d2b82e;
+    margin: 20px 0;
+}
+.formulario_premium{
+    border-radius: 2%;
+    width: 300px;
+    height: 5%;
+    color: #d2b82e; 
+}
+.content2{
+    display: flex;
+    justify-content: center;  
+    
+}
+.formulario{
+    border-radius: 2%;
+    width: 300px;
+    height: 5%;
+    color: white; 
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+.button{
+    position: relative;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b3;
+    border-radius: 10rem;
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+
+.button:hover::before {
+    width: 0;
+}
+.button:hover {
+    color: #ffffff; 
+    background-color: #000000; 
+}
+
+.button_premium {
+    position: relative;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    overflow: hidden;
+    background-color: #fcf6e0;
+    font-weight: bold;
+}
+
+.button_premium::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 10rem;
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+
+.button_premium:hover::before {
+    width: 0;
+}
+
+.button_premium:hover {
+    color: #ffc800;
+    background-color: #000000;
+}
+
+/*fcf6e0*/
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+
+}
+
+.font-header{
+    color:#FFFFFF;
+    font-size: 30px;
+    cursor: pointer;   
+    text-decoration: none;
+}
+
+img{
+    width: 120%;
+}
+
+.img.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.sociais img {
+    width: 43px;
+    height: auto;
+}
+
+.linkzudo {
+    color: #FFFFFF;
+    text-decoration: none;
+}
