@@ -18,8 +18,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; /* Adiciona flex-wrap para permitir que os elementos quebrem linha */
-    flex-direction: column; /* Alinha os elementos verticalmente */
+    flex-wrap: wrap; 
+    flex-direction: column; 
 }
 
 .btnentrar{
@@ -34,8 +34,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    justify-content: center; 
     box-shadow: 0 0 20px rgb(187, 182, 182);
     width: 35%;
     background-color: black;
@@ -171,10 +171,10 @@ color: white;
     align-items: center;
     
     background-image: url('ceunegro.jpg');
-    background-size: cover; /* Redimensiona a imagem para cobrir toda a div */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    /* Seus outros estilos para a div */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
 }
 .divTable{
     display: flex;
@@ -182,10 +182,10 @@ color: white;
     align-items: center;
     
     background-image: url('ceunegro.jpg');
-    background-size: cover; /* Redimensiona a imagem para cobrir toda a div */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    /* Seus outros estilos para a div */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+   
 }
 .nav-bar{
     position: fixed;
